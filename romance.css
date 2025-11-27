@@ -1,0 +1,78 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e8daf9;
+}
+
+header {
+  background-color: #000;
+  color: #add8e6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+header h1 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.menu-icon {
+  background-color: #add8e6;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.categorias {
+  background-color: #add8e6;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.categorias a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.categorias a.ativo {
+  background-color: white;
+  border: 1px solid #000;
+}
+
+main {
+  padding: 20px;
+}
+
+.livros {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 10px;
+  justify-items: center;
+}
+
+.livros img {
+  width: 100px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+  border: 2px solid white;
+  transition: transform 0.3s ease;
+}
+
+.livros img:hover {
+  transform: scale(1.05);
+}

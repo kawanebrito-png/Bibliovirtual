@@ -1,0 +1,102 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8daf9; /* lilás claro */
+}
+
+header {
+    background-color: #000;
+    color: #add8e6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+header h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+header nav a {
+    color: white;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+.busca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+}
+
+.busca input {
+    width: 300px;
+    padding: 10px;
+    border-radius: 20px 0 0 20px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.busca button {
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    background: white;
+    border-radius: 0 20px 20px 0;
+    cursor: pointer;
+}
+
+.categorias {
+    background-color: #add8e6;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.categorias a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+main h2 {
+    margin-bottom: 15px;
+}
+
+.livros {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    padding-bottom: 10px;
+}
+
+.livros img {
+    width: 120px;
+    height: 180px;
+    object-fit: cover;
+    border: 2px solid white;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.livros img:hover {
+    transform: scale(1.05);
+}

@@ -1,0 +1,87 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e8daf9;
+}
+
+header {
+  background-color: #000;
+  color: #add8e6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+header h1 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.menu-icon {
+  background-color: #add8e6;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+main {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.livro-container {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.livro-container img {
+  width: 180px;
+  border: 2px solid #000;
+}
+
+.resumo {
+  background-color: #fff;
+  border: 1px solid #000;
+  padding: 15px;
+  max-width: 400px;
+}
+
+.resumo h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.botoes {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+button {
+  background-color: #add8e6;
+  border: 1px solid #000;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #90c5e8;
+}
+
+.coracao {
+  font-size: 24px;
+  cursor: pointer;
+}

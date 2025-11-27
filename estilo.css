@@ -1,0 +1,84 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e8daf9; /* lilás claro */
+    padding: 20px;
+}
+
+header {
+    background-color: #000;
+    color: #add8e6; /* azul claro */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+header h1 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.boas-vindas {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.boas-vindas img {
+    width: 50px;
+    height: 50px;
+}
+
+.descricao {
+    background-color: #fff;
+    border: 1px solid #000;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.destaque {
+    color: #c58ed0;
+    text-decoration: underline;
+}
+
+.sublinhado {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.link {
+    color: #c58ed0;
+    text-decoration: underline;
+}
+
+button {
+    background-color: #add8e6; /* azul claro */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #87c0e0;
+}
